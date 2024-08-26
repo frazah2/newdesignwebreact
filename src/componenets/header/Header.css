@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background: rgb(63, 90, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list ul li{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list ul{
+    float: left;
+    margin: 0px;
+}
+.contact{
+        width: 120px;
+        height: 50px;
+        background-color: rgb(19, 16, 16);
+        border: none;
+        border-radius: 5px;
+        margin-right: 20px;
+        color: aliceblue;
+        font-size: 15px;
+        margin-top: 5px;
+        transition: 0.5s;
+}
+.contact:hover{
+    background-color: rgb(59, 59, 59);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h2{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list{
+    margin-right: 130px;
+}
